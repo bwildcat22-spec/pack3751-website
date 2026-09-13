@@ -579,3 +579,25 @@ td.mark-popcorn .num { background: var(--gold); color: var(--navy-deep); font-we
 .text-center { text-align: center; }
 .mt-0 { margin-top: 0; }
 .stack-sm > * + * { margin-top: 8px; }
+
+/* ==========================================================================
+   Activity tag chips (used on Activities page program cards)
+   ========================================================================== */
+.activity-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin: 14px 0 4px;
+}
+.activity-chip {
+  font-family: var(--font-label);
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--navy);
+  background: var(--cream);
+  border: 1.5px solid var(--line);
+  border-radius: var(--radius-pill);
+  padding: 4px 10px;
+}
